@@ -238,12 +238,6 @@ $(function () {
         volume: 1
     });
 
-    setTimeout(function () {
-        // $(".iconPlay").bind("click",function () {
-        //     alert('爱你哦~');
-        // });
-        $(".iconPlay").trigger("click")
-    },10000)
 });
 
 // 当页面加载完毕时开始动画。
@@ -251,7 +245,7 @@ window.onload = function () {
     ani.init();
     updateSliderControl();
     addSmoothScrolling();
-
+    clickToPlay();
 };
 
 // 使用 onscroll 回调函数来更新 slider
@@ -290,6 +284,9 @@ var ani = {
     }
 };
 
+function clickToPlay() {
+    $(".iconPlay").trigger("click")
+}
 function updateSliderControl() {
     // 获得所有的 slider 链接
     var links = document.querySelectorAll("#slider-control a");
