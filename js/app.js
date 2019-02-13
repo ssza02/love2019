@@ -237,6 +237,13 @@ $(function () {
         toggleDuration: true,
         volume: 1
     });
+
+    setTimeout(function () {
+        var iconPlay = document.querySelectorAll(".iconPlay");
+        iconPlay.click(function(){
+
+        });
+    },10000)
 });
 
 // 当页面加载完毕时开始动画。
@@ -244,6 +251,7 @@ window.onload = function () {
     ani.init();
     updateSliderControl();
     addSmoothScrolling();
+
 };
 
 // 使用 onscroll 回调函数来更新 slider
