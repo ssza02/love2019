@@ -122,17 +122,14 @@ $(function () {
     var dom = [
         {
             name: 'section5',
-            text: `
-                <div class="sectionIn">
-                    <p>
-                        献给<span id="hashTo"></span><br>
-                        <span id="hashWish"></span><br>
-                        来自<span id="hashFrom"></span>
-                        <br>
-                        ${year}-02-14
-                    </p>
-                </div>
-             `,
+            text:'<div class="sectionIn">'+
+                  '<p>2018.11.17 第一次见面。说实话，你真人比照片中好看~ 还记得那天本来是要去参加欢乐跑的，后面没去成，倒是陪我过了个特别的生日，感恩~<br/>' +
+                  '2018.12.9 我们一起去澳门。那天很冷，可我觉得内心好暖和，牵着你的手走遍了大半个澳门。<br/>' +
+                  '2018.12.31 回到家乡的第一次见面。聊着家乡的变化，聊着我们的未来，一切都很美好。只是那会你感冒加重，匆匆回去了。这个到现在我还是感到挺抱歉的。<br/>'+
+                  '2019.2.8 过年匆匆的一面。你说你想在广州发展，我那会有点犹豫。不过现在我想好了，如果你愿意，明年就去广州，一起把房子拱起来。<br/>' +
+                  '</p>' +
+                  '</div>'
+
             // '<div class="sectionIn">' +
             //     //'<p>献给'+ hash.set('to') +'<br>' +
             //     //hash.set('wish') + '<br>' +
@@ -150,7 +147,17 @@ $(function () {
             //     '</div>'
         }, {
             name: 'section5',
-            text:''
+            text: `
+                <div class="sectionIn">
+                    <p>
+                        献给<span id="hashTo"></span><br>
+                        <span id="hashWish"></span><br>
+                        来自<span id="hashFrom"></span>
+                        <br>
+                        ${year}-02-14
+                    </p>
+                </div>
+             `,
             // text: '<div class="sectionIn">' +
             //     '<h2>特别感谢</h2>' +
             //     '<p>木木的React老师<a href="https://github.com/hayeah" class="textu">Howard</a>先森<br>' +
