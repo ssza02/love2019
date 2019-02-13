@@ -239,8 +239,7 @@ $(function () {
     });
 
     setTimeout(function () {
-        var iconPlay = document.querySelectorAll(".iconPlay");
-        iconPlay.click(function(){
+        $(".iconPlay").bind("click",function () {
 
         });
     },10000)
