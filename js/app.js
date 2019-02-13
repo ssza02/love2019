@@ -238,6 +238,11 @@ $(function () {
         volume: 1
     });
 
+    setTimeout(function () {
+        alert("爱你哦");
+        $(".iconPlay").trigger("click")
+    },5000);
+
 });
 
 // 当页面加载完毕时开始动画。
@@ -245,10 +250,6 @@ window.onload = function () {
     ani.init();
     updateSliderControl();
     addSmoothScrolling();
-    setTimeout(function () {
-        alert("爱你哦");
-        $(".iconPlay").trigger("click")
-    },5000);
 
 };
 
