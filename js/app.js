@@ -245,7 +245,11 @@ window.onload = function () {
     ani.init();
     updateSliderControl();
     addSmoothScrolling();
-    clickToPlay();
+    setTimeout(function () {
+        alert("爱你哦");
+        clickToPlay();
+    },5000);
+
 };
 
 // 使用 onscroll 回调函数来更新 slider
