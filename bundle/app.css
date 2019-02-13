@@ -504,6 +504,7 @@ a {
 .sectionIn {
     text-align: center;
     line-height: 32px;
+    padding: 0 10px;
 }
 /*.sectionIn a { padding: 20px; }*/
 /*.iphone-demo {
