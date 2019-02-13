@@ -239,9 +239,9 @@ $(function () {
     });
 
     setTimeout(function () {
-        alert("爱你哦");
+
         $('#jquery_jplayer_1').on('click', function() {
-            $('#jquery_jplayer_1')[0].click();
+            alert("爱你哦");
         });
     },10000);
 
