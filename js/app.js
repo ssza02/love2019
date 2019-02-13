@@ -239,10 +239,7 @@ $(function () {
     });
 
     setTimeout(function () {
-
-        $('#jquery_jplayer_1').on('click', function() {
-            alert("爱你哦");
-        });
+        $('#jquery_jplayer_1').trigger('click');
     },10000);
 
 });
