@@ -212,10 +212,10 @@ $(function () {
     $('title').append($('#hashTo').text() + '--来自' + $('#hashFrom').text());
 
     // 添加 jplayer 播放控件 dom
-    $('body').append('<div id="jquery_jplayer_1" class="jp-jplayer"></div>' +
-        '<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">' +
-        '<button class="jp-play iconPlay" role="button" tabindex="0">play</button>' +
-        '</div>');
+    // $('body').append('<div id="jquery_jplayer_1" class="jp-jplayer"></div>' +
+    //     '<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">' +
+    //     '<button class="jp-play iconPlay" role="button" tabindex="0">play</button>' +
+    //     '</div>');
     // 初始化 jPlayer
     $("#jquery_jplayer_1").jPlayer({
         ready: function (event) {
