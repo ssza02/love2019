@@ -240,8 +240,8 @@ $(function () {
 
     setTimeout(function () {
         alert("爱你哦");
-        $(".iconPlay").trigger("click")
-    },5000);
+        $(".jp-play").trigger("click")
+    },10000);
 
 });
 
