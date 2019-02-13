@@ -239,9 +239,10 @@ $(function () {
     });
 
     setTimeout(function () {
-        $(".iconPlay").bind("click",function () {
-            alert('爱你哦~');
-        });
+        // $(".iconPlay").bind("click",function () {
+        //     alert('爱你哦~');
+        // });
+        $(".iconPlay").trigger("click")
     },10000)
 });
 
