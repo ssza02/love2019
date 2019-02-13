@@ -73,9 +73,9 @@ var text = url.parse();
 var hash = {
     //query: url.parse(location.hash),
     query: text.t ? text : {
-        t: '阿紫',
-        f: '木木',
-        w: '爱你一辈子',
+        t: '朱小姐',
+        f: '赵先生',
+        w: '熬过异地，便是一生',
     },
     // judge: function (cons, defaultName) {
     //     //console.log(cons !== defaultName);
@@ -150,22 +150,22 @@ $(function () {
             //     '</div>'
         }, {
             name: 'section5',
-            text: '<div class="sectionIn">' +
-                '<h2>特别感谢</h2>' +
-                '<p>木木的React老师<a href="https://github.com/hayeah" class="textu">Howard</a>先森<br>' +
-                'Google doodle／Github！</p>' +
-                '<div class="btn">' +
-                '<a href="https://github.com/superwoods">' +
-                '访问超级木木的Github首页</a>' +
-                '</div>' +
-                '<div class="license">' +
-                '<a href="https://github.com/superwoods">' +
-                '本页面由 / 超级木木 / 木Studio 设计制作, ' +
-                '我们使用MIT开源协议, 欢迎转载分享, ' +
-                '但请您务必保留我们的署名, 感谢！' +
-                '</a>' +
-                '</div>' +
-                '</div>'
+            // text: '<div class="sectionIn">' +
+            //     '<h2>特别感谢</h2>' +
+            //     '<p>木木的React老师<a href="https://github.com/hayeah" class="textu">Howard</a>先森<br>' +
+            //     'Google doodle／Github！</p>' +
+            //     '<div class="btn">' +
+            //     '<a href="https://github.com/superwoods">' +
+            //     '访问超级木木的Github首页</a>' +
+            //     '</div>' +
+            //     '<div class="license">' +
+            //     '<a href="https://github.com/superwoods">' +
+            //     '本页面由 / 超级木木 / 木Studio 设计制作, ' +
+            //     '我们使用MIT开源协议, 欢迎转载分享, ' +
+            //     '但请您务必保留我们的署名, 感谢！' +
+            //     '</a>' +
+            //     '</div>' +
+            //     '</div>'
         }
     ];
 
