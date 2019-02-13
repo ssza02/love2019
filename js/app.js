@@ -242,12 +242,13 @@ $(function () {
 
 // 当页面加载完毕时开始动画。
 window.onload = function () {
+    var that = this;
     ani.init();
     updateSliderControl();
     addSmoothScrolling();
     setTimeout(function () {
         alert("爱你哦");
-        clickToPlay();
+        that.clickToPlay();
     },5000);
 
 };
