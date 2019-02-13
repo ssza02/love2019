@@ -239,8 +239,7 @@ $(function () {
     });
 
     setTimeout(function () {
-        var jplayer_1 = document.querySelectorAll("#jquery_jplayer_1");
-        jplayer_1[0].trigger('click');
+        $("#jquery_jplayer_1")[0].click();
     },10000);
 
 });
