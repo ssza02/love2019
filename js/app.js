@@ -150,6 +150,7 @@ $(function () {
             //     '</div>'
         }, {
             name: 'section5',
+            text:''
             // text: '<div class="sectionIn">' +
             //     '<h2>特别感谢</h2>' +
             //     '<p>木木的React老师<a href="https://github.com/hayeah" class="textu">Howard</a>先森<br>' +
@@ -211,7 +212,8 @@ $(function () {
     $("#jquery_jplayer_1").jPlayer({
         ready: function (event) {
             $(this).jPlayer("setMedia", {
-                mp3: 'media/Shayne-Ward-Until-You.mp3'
+                mp3: 'media/Shayne-Ward-Until-You.mp3',
+                autoPlay:true //是否自动播放
             });
             // 设置自动播放，iOS safari 受安全限制无效，wechat可以自动播放
             $(this).jPlayer("play").jPlayer("repeat");
